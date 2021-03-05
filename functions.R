@@ -182,7 +182,8 @@ soilwetting<-function(AWprev,dP,AWC){
   excess<-0.0
   c(AW,excess)
 }
-library(EcoHydRology)
+
+
 package.skeleton("BSEHyrdoModels",list=c("soil_wetting_above_capacity",
                                          "soilwetting","soildrying","TMWB_Model","CN_Model"))
 install.packages("BSEHyrdoModels",repos=NULL)
